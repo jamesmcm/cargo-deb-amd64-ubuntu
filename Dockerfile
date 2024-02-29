@@ -1,4 +1,4 @@
-FROM clux/muslrust
+FROM clux/muslrust:latest
 
 RUN cargo install cargo-deb
 
